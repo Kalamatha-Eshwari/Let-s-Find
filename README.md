@@ -1,36 +1,56 @@
+# Let's Find
+
+Let's Find is a job portal platform where users can log in using Google authentication, manage their own profiles and resumes, and explore opportunities. Users can post job roles and projects while also discovering projects and job openings that align with their skills.
+
+## Features
+
+- **Google Authentication**: Secure login and logout with Google Sign-In.
+- **User Profiles**: Each user has a dedicated profile and resume.
+- **Job Posting & Discovery**: Users can post job roles and find relevant job opportunities.
+- **Project Sharing**: Users can upload and view projects for collaboration and inspiration.
+- **Real-time Updates**: Seamless data synchronization using Firebase.
+
+## Technologies Used
+
+- **Frontend**: Next.js (React framework for optimized web applications)
+- **Database**: Firebase (for authentication, Firestore for data storage)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
 
+Then, install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To deploy this project, you can use Vercel:
 
-## Learn More
+```bash
+vercel
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Screenshot (118)](https://github.com/user-attachments/assets/bab60348-8291-402c-98a2-7391ac202fce)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Screenshot (119)](https://github.com/user-attachments/assets/93992471-1870-4286-9058-c89941a4f943)
+![Screenshot (116)](https://github.com/user-attachments/assets/abeaa9dd-6355-44d5-b5cc-ae2b44351e6c)
+![Screenshot (115)](https://github.com/user-attachments/assets/b351505a-de6e-4655-8a93-ab676f75b322)
+![Screenshot (117)](https://github.com/user-attachments/assets/f68c2145-5cc9-4149-a717-78cad9829ced)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
